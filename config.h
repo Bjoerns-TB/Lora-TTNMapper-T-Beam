@@ -1,5 +1,8 @@
-// Comment the next line to use ABP authentication on TTN. Leave it as it is to use recommended OTAA
+// Comment the next line to use ABP authentication on TTN. Uncomment it to use recommended OTAA
 //#define OTAA
+
+// define eu868 or CFG_us915
+#define CFG_eu868
 
 #ifndef LORA_TTNMAPPER_TBEAM_CONFIG_INCLUDED
 #define LORA_TTNMAPPER_TBEAM_CONFIG_INCLUDED
